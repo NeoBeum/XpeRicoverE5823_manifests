@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--  LOCAL PC BUILD ENVIRONMENT  -->
+    <!--  REMOVE PROJECTS MANIFESTS BEFORE INCLUDE  -->
+    <remote name="NB-G751JY"
+            fetch="/mnt/storage/Projects"/>
+
+    <remote name="neobeum"
+            fetch="/mnt/mirror/neobeum"/>
+
+    <!--  SONY BUILD ENVIRONMENT  -->
+    <remote name="sony"
+            fetch="/mnt/mirror/sony" />
+
+    <remote name="NXP"
+            fetch="/mnt/mirror/nxp" />
+
+    <!--  OMNIROM BUILD ENVIRONMENT  -->
+    <remote name="omnirom"
+            fetch="/mnt/mirror/omnirom" />
+
+    <!--  GITHUB BUILD ENVIRONMENT  -->
+    <remote name="github"
+            fetch="/mnt/mirror/github" />
+
+
+    <include name="e5823_manifests/sony_include.xml" />
+    <include name="e5823_manifests/sony_remove.xml" />
+    <include name="e5823_manifests/e5823_include.xml" />
+    <include name="e5823_manifests/e5823_remove.xml" />
+
+
+</manifest>
