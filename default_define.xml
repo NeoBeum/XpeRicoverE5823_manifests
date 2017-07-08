@@ -26,8 +26,8 @@
 
     <include name="e5823_manifests/e5823_remove.xml" />
     <include name="e5823_manifests/e5823_include.xml" />
-    <include name="e5823_manifests/sony_include.xml" />
     <include name="e5823_manifests/sony_remove.xml" />
+    <include name="e5823_manifests/sony_include.xml" />
 
 
 </manifest>

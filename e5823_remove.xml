@@ -3,4 +3,7 @@
 
     <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
 
+    <!--  Sony Manifests  -->
+    <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+
 </manifest>

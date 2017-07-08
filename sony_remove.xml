@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remove-project name="platform/hardware/qcom/camera" />
-
     <!--  ANDROID REPOSITORY REVISION 7.1.2 R17  -->
     <remove-project name="device/asus/fugu" />
     <remove-project name="device/asus/fugu-kernel" />
