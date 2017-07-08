@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" />
 
 </manifest>
